@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>803</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#MainWidget{
+	background-image: url(:/images/bk.png);
+}
+
+QWidget#widgetSeedBank {	
+	background-image: url(:/images/seedbank.png);
+}</string>
+  </property>
+  <widget class="QWidget" name="widgetSeedBank" native="true">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>446</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>446</width>
+     <height>87</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>446</width>
+     <height>87</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnSeed1 {
+	border: none;	
+	background-image: url(:/images/seed_flower.png);
+}
+
+QPushButton#btnSeed2 {
+	border: none;	
+	background-image: url(:/images/seed_pea.png);
+}</string>
+   </property>
+   <widget class="QPushButton" name="btnSeed1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>6</y>
+      <width>53</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>53</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>53</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSeed2">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>6</y>
+      <width>53</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>53</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>53</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="NumberOfSun">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>55</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="value" stdset="0">
+     <double>75.000000000000000</double>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>75</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

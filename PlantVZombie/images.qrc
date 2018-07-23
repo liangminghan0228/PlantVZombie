@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/plant_0.png</file>
+        <file>images/bk.png</file>
+        <file>images/seed_flower.png</file>
+        <file>images/seed_pea.png</file>
+        <file>images/seedbank.png</file>
+        <file>images/zomb_0.png</file>
+        <file>images/circle.png</file>
+        <file>images/grass.png</file>
+        <file>images/wood.png</file>
+        <file>images/bg2.png</file>
+        <file>images/Button.png</file>
+        <file>images/startBtn.png</file>
+        <file>images/zombie.png</file>
+        <file>images/peashooter.png</file>
+        <file>images/sun.png</file>
+        <file>images/sunflower.png</file>
+        <file>images/pea.png</file>
+        <file>images/overbk.png</file>
+        <file>images/overbk2.png</file>
+    </qresource>
+</RCC>
